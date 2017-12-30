@@ -2,7 +2,7 @@
  * Created by SecretSword on 12/29/17.
  */
 angular
-    .module('myApp', ['ngRoute', 'duScroll', 'ngCookies'])
+    .module('myApp', ['ngRoute', 'ngCookies'])
     .config(function ($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
